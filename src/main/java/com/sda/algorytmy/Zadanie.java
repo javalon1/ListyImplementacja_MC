@@ -17,7 +17,6 @@ public class Zadanie {
         while (true) {
             String imie = scan.next();
 
-
             if (imie.equals("-")) {
                 for (String el : listaImion) {
                     System.out.println(el);

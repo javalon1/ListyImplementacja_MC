@@ -38,6 +38,9 @@ public class App {
 //        int liczba = Integer.parseInt(napis); // konwersja stringa na liczbe
 //
 
-        Zadanie.zad1();
-    }
+//        Zadanie.zad1();
+
+        List<Integer> list = new ArrayList<>();
+        list.add(294);
+            }
 }
