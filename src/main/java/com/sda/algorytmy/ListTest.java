@@ -16,6 +16,12 @@ public class ListTest {
         list.add(5);
         list.remove(3);
 
-    }
+        MyList<Integer> list1 = new LinkedListImpl<>();
+        list1.add(1);
+        list1.add(2);
+        list1.add(3);
 
+        System.out.println(list1);
+
+    }
 }
