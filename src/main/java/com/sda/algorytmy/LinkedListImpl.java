@@ -28,6 +28,14 @@ public class LinkedListImpl<E> implements MyList<E> {
         return true;
     }
 
+    public void printList() {
+        Node tmp = head;
+        while (tmp != null){
+            System.out.println(tmp.date);
+            tmp = tmp.next;
+        }
+    }
+
     @Override
     public String toString() {
         return "LinkedListImpl{" +
@@ -42,6 +50,7 @@ public class LinkedListImpl<E> implements MyList<E> {
     }
 
     class Node {
+
         private Node next;
         private Object date;
 

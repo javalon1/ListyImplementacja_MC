@@ -43,5 +43,10 @@ public class ListImpl<E> implements MyList<E> {
         return true;
     }
 
+    @Override
+    public void printList() {
+
+    }
+
 
 }
